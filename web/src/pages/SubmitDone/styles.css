@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../../assets/home-background.svg') no-repeat 600px 150px;
+}
+
+#page-submit-done {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page-submit-done button {
+  width: 260px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  margin-top: 15px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+#page-submit-done strong {
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+#page-submit-done .content {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color:var(--primary-color);
+  transition: 1000ms;
+}
